@@ -1,0 +1,20 @@
+{
+ "vsx_table": {
+  "description": "AAVSO VSX: name, ra, dec, type, period for every object; fetched 2026-11-10 in strips and checked against VizieR's row count",
+  "rows": 10305140,
+  "sha256": "4cb3c99b8a584d334973b8ad9477757b97552f93e70b034880a30718568d0e23"
+ },
+ "survey_ledger": {
+  "description": "the survey's private SQLite ledger, opened read-only; snapshot 2026-11-11. Its content used here is data/catalogue.parquet (every signal) and the searched-star lists in data/inputs/."
+ },
+ "stored_light_curves": {
+  "description": "the survey's stored, conditioned TGLC light curves (private, about 13 GB). Their content used here is data/inputs/ephem_refined.parquet."
+ },
+ "gaia_dr3": {
+  "description": "IRSA TAP gaia_dr3_source columns for signal stars and a seeded quiet sample: data/inputs/dr3_columns.parquet"
+ },
+ "kepler": {
+  "description": "MAST stpubdata bucket: the list of Kepler targets with light curves (data/inputs/kepler_targets.txt) and two long-cadence quarters per sampled target, streamed and reduced to data/inputs/kepler_labels.parquet; no raw file was kept"
+ },
+ "rebuild_from_deposit": "build_items.py (with the VSX table) -> purity_dr3.py -> build_predictions.py; kepler_plan.py and kepler_calib.py are recorded but their outputs are frozen inputs"
+}

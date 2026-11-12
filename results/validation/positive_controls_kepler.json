@@ -1,0 +1,155 @@
+{
+ "vsx_eclipsing_binary_held_out": {
+  "n": 145,
+  "detected": 0.993103448275862,
+  "real_on": 0.9655172413793104,
+  "mean_power": 0.9837931034482759,
+  "by_power": [
+   {
+    "power_bin": [
+     0.0,
+     0.5
+    ],
+    "n": 2,
+    "mean_power": 0.0,
+    "detected": 1.0,
+    "real_on": 1.0
+   },
+   {
+    "power_bin": [
+     0.5,
+     0.8
+    ],
+    "n": 1,
+    "mean_power": 0.65,
+    "detected": 1.0,
+    "real_on": 1.0
+   },
+   {
+    "power_bin": [
+     0.95,
+     1.01
+    ],
+    "n": 142,
+    "mean_power": 1.0,
+    "detected": 0.9929577464788732,
+    "real_on": 0.9647887323943662
+   }
+  ]
+ },
+ "vsx_eclipsing_binary_calibration_half": {
+  "n": 154,
+  "detected": 0.9935064935064936,
+  "real_on": 0.9675324675324676,
+  "mean_power": 0.9801948051948052,
+  "by_power": [
+   {
+    "power_bin": [
+     0.0,
+     0.5
+    ],
+    "n": 3,
+    "mean_power": 0.016666666666666666,
+    "detected": 1.0,
+    "real_on": 1.0
+   },
+   {
+    "power_bin": [
+     0.8,
+     0.95
+    ],
+    "n": 1,
+    "mean_power": 0.9,
+    "detected": 1.0,
+    "real_on": 1.0
+   },
+   {
+    "power_bin": [
+     0.95,
+     1.01
+    ],
+    "n": 150,
+    "mean_power": 1.0,
+    "detected": 0.9933333333333333,
+    "real_on": 0.9666666666666667
+   }
+  ]
+ },
+ "no_catalogue_match": {
+  "n": 3070,
+  "detected": 0.16677524429967427,
+  "real_on": 0.06123778501628664,
+  "mean_power": 0.9549185667752442,
+  "by_power": [
+   {
+    "power_bin": [
+     0.0,
+     0.5
+    ],
+    "n": 138,
+    "mean_power": 0.008333333333333335,
+    "detected": 0.10869565217391304,
+    "real_on": 0.10144927536231885
+   },
+   {
+    "power_bin": [
+     0.5,
+     0.8
+    ],
+    "n": 2,
+    "mean_power": 0.6000000000000001,
+    "detected": 1.0,
+    "real_on": 1.0
+   },
+   {
+    "power_bin": [
+     0.8,
+     0.95
+    ],
+    "n": 4,
+    "mean_power": 0.8375,
+    "detected": 0.5,
+    "real_on": 0.5
+   },
+   {
+    "power_bin": [
+     0.95,
+     1.01
+    ],
+    "n": 2926,
+    "mean_power": 0.9999658236500342,
+    "detected": 0.1684894053315106,
+    "real_on": 0.05809979494190021
+   }
+  ]
+ },
+ "quiet_star_borrowed_ephemeris": {
+  "n": 484,
+  "detected": 0.028925619834710745,
+  "real_on": 0.0,
+  "mean_power": 0.96900826446281,
+  "by_power": [
+   {
+    "power_bin": [
+     0.0,
+     0.5
+    ],
+    "n": 15,
+    "mean_power": 0.0,
+    "detected": 0.0,
+    "real_on": 0.0
+   },
+   {
+    "power_bin": [
+     0.95,
+     1.01
+    ],
+    "n": 469,
+    "mean_power": 1.0,
+    "detected": 0.029850746268656716,
+    "real_on": 0.0
+   }
+  ]
+ },
+ "note": "Kepler labels were computed with the labelling rules of kepler_calib.py (same-star test with a free phase on two Kepler quarters, 100 controls at 0.4-2.5 P, alpha 0.01; real_on also needs Kepler amplitude >= 0.3 x TESS amplitude) and the sigma_P of the plan file (first calibration)."
+}

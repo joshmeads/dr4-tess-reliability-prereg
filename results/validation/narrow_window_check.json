@@ -1,0 +1,25 @@
+{
+ "A_sol_setting_40_transits": {
+  "rank_extended": 872,
+  "NO_COVERAGE:rank_extended": 128,
+  "rank_extended false": 4
+ },
+ "B_narrow_box_natural": {
+  "n_items": 351,
+  "result": {
+   "rank": 269,
+   "pivot": 19,
+   "rank_extended": 54,
+   "NO_COVERAGE:rank_extended": 3,
+   "NO_TEST:pivot_inapplicable": 6
+  }
+ },
+ "C_primary_sample_natural": {
+  "pivot": 929,
+  "rank": 534,
+  "NO_TEST:None": 36,
+  "rank_extended": 1,
+  "pivot false": 2,
+  "rank false": 3
+ }
+}

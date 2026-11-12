@@ -1,0 +1,43 @@
+{
+ "size_white": {
+  "n": 712,
+  "false": 3,
+  "rate": 0.004213483146067416,
+  "methods": {
+   "pivot": 712
+  }
+ },
+ "size_red": {
+  "n": 667,
+  "false": 0,
+  "rate": 0.0,
+  "methods": {
+   "pivot": 667
+  }
+ },
+ "agreement_40_subsample": {
+  "agree": {
+   "noise": [
+    724,
+    731
+   ],
+   "signal": [
+    693,
+    731
+   ]
+  },
+  "rank_recoveries": {
+   "noise": 4,
+   "signal": 516
+  },
+  "pivot_recoveries": {
+   "noise": 9,
+   "signal": 526
+  }
+ },
+ "critical_0.005": {
+  "40": 5.720552418310578,
+  "100": 5.445527610208213,
+  "189": 5.359188252461792
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "title": "Preregistered Gaia DR4 reliability test of faint TESS FFI periodic signals",
+ "upload_type": "software",
+ "creators": [
+  {
+   "name": "Meads, Josh"
+  }
+ ],
+ "description": "Preregistration deposited before Gaia DR4 (2026-12-02). Plan, scoring code, pre-DR4 estimates and SHA-256 manifest. Seal (SHA-256 of MANIFEST.sha256): 2b3632a3013097e46f0e76c14713a1c300720b29b96b8f40c50dc5f6871ecacc. The catalogue, prediction and input data files are withheld (hash only) until the corresponding variable-star submissions are made. All files in this record are released under the MIT licence (see LICENSE).",
+ "access_right": "open",
+ "license": "MIT",
+ "version": "1.1.1",
+ "keywords": [
+  "TESS",
+  "Gaia DR4",
+  "preregistration",
+  "eclipsing binaries",
+  "variable stars"
+ ]
+}

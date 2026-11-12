@@ -1,0 +1,42 @@
+{
+ "items": 541609,
+ "testable": 349314,
+ "by_mode": {
+  "anchored": 143682,
+  "free": 205632,
+  "untestable": 192295
+ },
+ "by_tier_mode": {
+  "box|anchored": 21643,
+  "box|free": 683,
+  "box|untestable": 2790,
+  "ls|anchored": 122039,
+  "ls|free": 204949,
+  "ls|untestable": 189505
+ },
+ "primary": 83059,
+ "primary_by_tier": {
+  "box": 22326,
+  "ls": 60733
+ },
+ "clean_eb_primary": 27321,
+ "shuffled": 14741,
+ "positive_items": 3038,
+ "positive_rows": 9114,
+ "rows": 373169,
+ "kepler_cal_items": 3366,
+ "coarse_power_sample": {
+  "n": 2932,
+  "median": 0.9,
+  "frac_ge_0_5": 0.9884038199181446,
+  "frac_ge_0_8": 0.9737380627557981,
+  "by_tier": {
+   "box": 0.910828025477707,
+   "ls": 0.9967396367023754
+  }
+ },
+ "p_pred_mean_primary": {
+  "box": 0.24590392114576737,
+  "ls": 0.05395411300943099
+ }
+}

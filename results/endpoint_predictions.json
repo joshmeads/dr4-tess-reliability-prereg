@@ -1,0 +1,77 @@
+{
+ "E1_purity_clean_eb_power_ge_0.8": {
+  "prediction": {
+   "all": {
+    "n": 27256,
+    "value": 0.15071076931556573,
+    "ci95": [
+     0.13230970210523052,
+     0.16922317173302504
+    ]
+   },
+   "G13.5-14.0": {
+    "n": 2310,
+    "value": 0.294478213400104,
+    "ci95": [
+     0.25442320690442743,
+     0.3300342691274475
+    ]
+   },
+   "G14.0-14.5": {
+    "n": 4222,
+    "value": 0.20929101540172781,
+    "ci95": [
+     0.1833358745792788,
+     0.23456414108601922
+    ]
+   },
+   "G14.5-15.0": {
+    "n": 7738,
+    "value": 0.15155660718770092,
+    "ci95": [
+     0.13250564909821053,
+     0.17043211713609716
+    ]
+   },
+   "G15.0-15.6": {
+    "n": 12986,
+    "value": 0.10560424946507359,
+    "ci95": [
+     0.08800157167688741,
+     0.12387976042713056
+    ]
+   }
+  },
+  "population": "primary clean-eb items (Kepler-labelled ones included, as in scoring) with power >= 0.8; before DR4 the coarse power stands in for the measured power",
+  "basis": "power-weighted mean of the sealed p_pred, sum(p_pred x power)/sum(power), the expectation of the estimator; 95% from refitting the Kepler model on bootstrap resamples"
+ },
+ "E2_off_target_fraction": {
+  "prediction": 0.23022847100175747,
+  "interval95": [
+   0.1,
+   0.4
+  ],
+  "directional": "the off-target fraction rises monotonically across the four crowding bins of neighbour flux within 21 arcsec",
+  "basis": "the survey's identity stage (results/identity_counts.json): eb items closed OFF_TARGET over those closed OFF_TARGET, KNOWN, KNOWN_REVISE or passing identity; a weakly informed prior, so the interval is wide"
+ },
+ "E3_p_vs_2p_accuracy": {
+  "prediction": 0.8627145085803433,
+  "n_kepler": 641,
+  "basis": "agreement of the sealed call with Kepler's own odd/even where Kepler decides"
+ },
+ "E4_calibration": {
+  "predicted_brier_if_calibrated": 0.04342708617852914,
+  "n": 81118,
+  "kepler_cv_brier": 0.04393295633997839,
+  "kepler_cv_brier_skill": 0.6385270668853531,
+  "prediction": "Brier skill score > 0, with a 95% interval excluding 0"
+ },
+ "E5_period": {
+  "prediction": "over recovered items not in the sigma_P calibration half: robust std (1.4826 x MAD about the median) of (P_Gaia - P_TESS)/sigma_P in [0.8, 1.4], median in [-0.5, 0.5], at most 15% at the window edge",
+  "basis": "end-to-end simulation with heavy-tailed period errors (results/validation/e2e.json)"
+ },
+ "checks": {
+  "false_rate": "false ON_STAR rate on shuffled controls <= 0.01",
+  "positive_controls": "observed/predicted in [0.8, 1.15]; observed >= power - 0.2 per bin with n >= 30"
+ }
+}

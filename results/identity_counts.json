@@ -1,0 +1,9 @@
+{
+ "description": "Distinct eb items per identity-stage verdict, snapshot 2026-11-11.",
+ "counts": {
+  "KNOWN": 784,
+  "KNOWN_REVISE": 92,
+  "OFF_TARGET": 393,
+  "PASS": 438
+ }
+}

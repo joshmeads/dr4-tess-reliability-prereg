@@ -1,0 +1,22 @@
+{
+ "top_level_sha256": "2b3632a3013097e46f0e76c14713a1c300720b29b96b8f40c50dc5f6871ecacc",
+ "rule": "SHA-256 of MANIFEST.sha256 (UTF-8, one 'sha256  path' line per file)",
+ "sealed_utc": "2026-11-12T05:51:03+00:00",
+ "embargoed": [
+  "data/catalogue.parquet",
+  "data/inputs/dr3_columns.parquet",
+  "data/inputs/dr3_item_lr.parquet",
+  "data/inputs/ephem_refined.parquet",
+  "data/inputs/items_built.parquet",
+  "data/inputs/kepler_labels.parquet",
+  "data/inputs/kepler_plan.parquet",
+  "data/inputs/kepler_targets.txt",
+  "data/inputs/kic_match.parquet",
+  "data/inputs/quiet_stars.parquet",
+  "data/inputs/searched_stars.parquet",
+  "data/items.parquet",
+  "data/predictions.parquet"
+ ],
+ "gaia_dr4_release": "2026-12-02T12:00:00+01:00",
+ "author": "Josh Meads"
+}
